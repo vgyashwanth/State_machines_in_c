@@ -18,6 +18,7 @@ typedef enum{
   last_event
 }event;// input event
 typedef state (*event_handler)(void);  // typdef function
+// function handlers
 state idle(void){
   return card_inserted;
 }   
