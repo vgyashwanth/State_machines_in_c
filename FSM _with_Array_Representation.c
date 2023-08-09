@@ -36,27 +36,27 @@ int read_event(){
     return a;
 }
 SystemState AmountDispatchHandler(void)
-{
+{    //work needs to be done by interrupt handler...    
     return Idle_State;
 }
 //function call to Enter amount and return amount entered state
 SystemState EnterAmountHandler(void)
-{
+{    //work needs to be done by interrupt handler...   
     return Amount_Entered_State;
 }
 //function call to option select and return the option selected state
 SystemState OptionSelectionHandler(void)
-{
+{    //work needs to be done by interrupt handler...   
     return Option_Selected_State;
 }
 //function call to enter the pin and return pin entered state
 SystemState EnterPinHandler(void)
-{
+{    //work needs to be done by interrupt handler...   
     return Pin_Eentered_State;
 }
 //function call to processing track data and return card inserted state
 SystemState InsertCardHandler(void)
-{
+{    //work needs to be done by interrupt handler...   
     return Card_Inserted_State;
 }
 //Initialize array of structure with states and event with proper handler
