@@ -19,23 +19,23 @@ typedef enum{
 event read_event(){
     // mechanism for reading the event
 }
-event inserted_card_Handler(){
+state inserted_card_Handler(){
     //work...
     return card_inserted_state;
 }
-event pin_entered_Handler(){
+state pin_entered_Handler(){
     //work...
     return pin_entered_state;
 }
-event Option_selected_Handler(){
+state Option_selected_Handler(){
     //work...
     return option_selected_state;
 }
-event Amount_entered_Handler(){
+state Amount_entered_Handler(){
     //work...
     return amount_entered_state;
 }
-event money_Dispatched_Handler(){
+state money_Dispatched_Handler(){
     //work...
     return idle_state;
 }
